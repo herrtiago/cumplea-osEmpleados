@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    height: 90vh;
+    width: 80vw;
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    gap:1%;
+}
+
+#atras {
+    align-self: flex-start;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.datos {
+    display: flex;
+    align-items: center;
+    width: 100%;
+
+}
+
+img {
+    width: 50%;
+    border-radius: 40px;
+    margin-right: 20px;
+}
+
+#respuesta {
+    align-self: center;
+    width: 80%;
+    margin-top: 5%;
+    background-color: hsla(0, 56%, 55%, 0.7);
+    height: 20%;
+    border-radius: 40px;
+    padding: 2%;
+    font-size: xx-large;
+}
